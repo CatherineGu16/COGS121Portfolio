@@ -1,0 +1,259 @@
+/* COGS3 studyBuddy specific styles go here. */
+#title {
+    background-size: cover;
+    background-image: url(../images/background.jpg);
+  }
+  
+  .container-fluid {
+    padding: 3% 15%;
+  }
+  
+  .card{
+      padding: 1.5em .5em .5em;
+      border-radius: 2em;
+      text-align: center;
+      box-shadow: 0 5px 10px rgba(0,0,0,.2);
+  }
+  
+  .card:hover {
+    transform:scale(1.1);
+  }
+  
+  h1 {
+    font-family: 'Dosis', sans-serif;
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 1.5;
+    text-align: center;
+    color: #fff;
+  }
+  
+  h2 {
+    font-family: 'Dosis';
+    font-size: 1.0;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  h3 {
+    font-family: 'Dosis';
+    font-weight: bold;
+  }
+  
+  h4 {
+    font-family: 'Dosis';
+    color: #01004d;
+  }
+  
+  p {
+    color: #01004d;
+  }
+  
+  .top-padding {
+    margin-top: 150px;
+  }
+  
+  /* Navigation Bar */
+  .navbar {
+    padding: 0 0 0rem;
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    height: 15%;
+    z-index: 9999;
+    padding: 3% 15%;
+  }
+  
+  .navbar-brand {
+    font-family: 'Dongle';
+    font-size: 5rem;
+    font-weight: bold;
+  }
+  
+  .navbar-item {
+    padding: 0 10px;
+  }
+  
+  .nav-link {
+    font-family: 'Dosis', sans-serif;
+    font-size: 1.5rem;
+  }
+  
+  /* Download Buttons */
+  .center {
+    margin: 0;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  
+  /* projects */
+  #projects {
+    padding: 100px;
+    text-align: center;
+    background-image: linear-gradient(#01004d, #023e8a);
+  
+  }
+  
+  .projects-header {
+    margin-top: 5%;
+    font-size: 3.5rem;
+    color: #ffff;
+  }
+  
+  .projects-column {
+    padding: 3% 2%;
+  }
+  
+  .card-img-top {
+    width: 100%;
+    height: 30vw;
+    object-fit: cover;
+  }
+  
+  #groupprojects {
+    padding: 100px;
+    text-align: center;
+    background-image: linear-gradient(#023e8a, #023e8a);
+  
+  }
+  
+  /* Testimonials Section */
+  #testimonials {
+    text-align: center;
+    padding: 70px;
+    background-image: linear-gradient(#023e8a, #0096c7);
+  }
+  
+  .carousel-item {
+    padding: 7% 15%;
+  }
+  
+  .testimonial-image {
+    width: 10%;
+    border-radius: 50%;
+    margin: 10px;
+  }
+  
+  /* skills */
+  #skills {
+    background-image: linear-gradient(#0096c7, #00b4d8);
+    color: #fff;
+    padding: 70px;
+    text-align: center;
+  }
+  
+  .skills-heading {
+    margin-top: 5%;
+    font-family: 'Dosis';
+    font-weight: bold;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    text-align: center;
+  }
+  
+  /* Footer Section */
+  #footer {
+    background-image: linear-gradient(#00b4d8, #90e0ef);
+    padding: 5% 5%;
+    text-align: center;
+  }
+  
+  .social-icon {
+    margin: 30px 10px;
+  }
+  
+  .large-icon {
+    font-size: 40px;
+  }
+  
+  /* Media Query Section */
+  @media (max-width: 1028px) {
+    #title {
+      text-align: center;
+    }
+  
+    .title-image {
+      position: static;
+      transform: rotate(0);
+    }
+  }
+  
+  
+  /* --------------------------------veil.html---------------------------- */
+  
+  
+  /* veil.html */
+  #veil {
+    background-image: linear-gradient(#01004d, #00b4d8);
+    color: #fff;
+    padding: 70px;
+    text-align: left;
+  }
+  
+  .veil-header {
+    margin-top: 5%;
+    font-size: 3.5rem;
+    color: #ffff;
+    text-align: center;
+  }
+  
+  .veil-headings {
+    margin-top: 5%;
+    font-size: 2.5rem;
+    color: #ffff;
+    text-align: left;
+  }
+  
+  .veil-body {
+    margin-top: 5%;
+    font-size: 2rem;
+    color: #ffff;
+    text-align: left;
+  }
+  
+  .veil-column {
+    padding: 3% 2%;
+  }
+  
+  /* --------------------------------Kinoyume.html---------------------------- */
+  
+  
+  /* Kinoyume.html */
+  #Overview {
+    background-image: linear-gradient(#01004d, #00b4d8);
+    color: #fff;
+    padding: 70px;
+    text-align: left;
+  }
+  
+  .veil-header {
+    margin-top: 5%;
+    font-size: 3.5rem;
+    color: #ffff;
+    text-align: center;
+  }
+  
+  .veil-headings {
+    margin-top: 5%;
+    font-size: 2.5rem;
+    color: #ffff;
+    text-align: left;
+  }
+  
+  .veil-body {
+    margin-top: 5%;
+    font-size: 2rem;
+    color: #ffff;
+    text-align: left;
+  }
+  
+  .veil-column {
+    padding: 3% 2%;
+  }
+  
+  
+  
+  
