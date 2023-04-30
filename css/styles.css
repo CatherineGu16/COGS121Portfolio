@@ -67,7 +67,7 @@
   
   .navbar-brand {
     font-family: 'Quattrocento';
-    font-size: 5rem;
+    font-size: 4rem;
     font-weight: bold;
     padding: 0 10px;
   }
@@ -95,7 +95,7 @@
   #projects {
     padding: 100px;
     text-align: center;
-    background-image: linear-gradient(#030334, #023e8a);
+    background-image: linear-gradient(#030334, #326bb7);
   
   }
   
@@ -118,13 +118,13 @@
   #groupprojects {
     padding: 100px;
     text-align: center;
-    background-image: linear-gradient(#023e8a, #023e8a);
+    background-image: linear-gradient(#023e8a, #457fcb);
   
   }
   
   /* skills */
   #skills {
-    background-image: linear-gradient(#023e8a, #00b4d8);
+    background-image: linear-gradient(#030334, #457fcb);
     color: #fff;
     padding: 70px;
     text-align: center;
@@ -141,7 +141,7 @@
   
   /* Footer Section */
   #footer {
-    background-image: linear-gradient(#00b4d8, #90e0ef);
+    background-image: linear-gradient(#457fcb, #d1e5ff);
     padding: 5% 5%;
     text-align: center;
   }
@@ -172,7 +172,7 @@
   
   /* veil.html */
   #veil {
-    background-image: linear-gradient(#01004d, #00b4d8);
+    background-image: linear-gradient(#01004d, #457fcb);
     color: #fff;
     padding: 70px;
     text-align: left;
