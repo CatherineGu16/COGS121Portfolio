@@ -20,7 +20,7 @@
   }
   
   h1 {
-    font-family: 'Dosis', sans-serif;
+    font-family: 'Merriweather', serif;
     font-weight: bold;
     font-size: 3rem;
     line-height: 1.5;
@@ -29,19 +29,19 @@
   }
   
   h2 {
-    font-family: 'Dosis';
+    font-family: 'Merriweather';
     font-size: 1.0;
     font-weight: bold;
     color: #fff;
   }
   
   h3 {
-    font-family: 'Dosis';
+    font-family: 'Merriweather';
     font-weight: bold;
   }
   
   h4 {
-    font-family: 'Dosis';
+    font-family: 'Merriweather';
     color: #01004d;
   }
   
@@ -65,9 +65,10 @@
   }
   
   .navbar-brand {
-    font-family: 'Dongle';
+    font-family: 'Quattrocento';
     font-size: 5rem;
     font-weight: bold;
+    padding: 0 10px;
   }
   
   .navbar-item {
@@ -75,7 +76,7 @@
   }
   
   .nav-link {
-    font-family: 'Dosis', sans-serif;
+    font-family: 'Merriweather', sans-serif;
     font-size: 1.5rem;
   }
   
@@ -130,7 +131,7 @@
   
   .skills-header {
     margin-top: 5%;
-    font-family: 'Dosis';
+    font-family: 'Merriweather';
     font-weight: bold;
     font-size: 3.5rem;
     line-height: 1.5;
