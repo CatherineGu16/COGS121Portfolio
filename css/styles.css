@@ -215,7 +215,7 @@
   }
   
   .kinoyume-header {
-    margin-top: 5%;
+    margin-top: 2%;
     font-size: 3.5rem;
     color: #ffff;
     text-align: center;
@@ -228,7 +228,7 @@
     text-align: left;
   }
   .kinoyume-subheadings {
-    margin-top: 5%;
+    margin-top: 3%;
     font-size: 1.5vw;
     color: #747474;
     text-align: left;
@@ -238,6 +238,49 @@
     margin-top: 2.5%;
     font-size: 1.2vw;
     color: #ffff;
+    text-align: left;
+  }
+  
+  .kinoyume-column {
+    padding: 3% 2%;
+  }
+  
+  
+  
+  /* --------------------------------sink.html---------------------------- */
+  
+  
+  /* sink.html */
+  #sink {
+    color: #fff;
+    padding: 250px;
+    text-align: left;
+  }
+  
+  .sink-header {
+    margin-top: 2%;
+    font-size: 3.5rem;
+    color: #0d0c62;
+    text-align: center;
+  }
+  
+  .sink-headings {
+    margin-top: 2%;
+    font-size: 2vw;
+    color: #00b4d8;
+    text-align: left;
+  }
+  .sink-subheadings {
+    margin-top: 3%;
+    font-size: 1.5vw;
+    color: #9b9b9b;
+    text-align: left;
+  }
+  
+  .sink-body {
+    margin-top: 2.5%;
+    font-size: 1.2vw;
+    color: #323232;
     text-align: left;
   }
   
