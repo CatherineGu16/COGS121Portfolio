@@ -1,11 +1,13 @@
 /* COGS3 studyBuddy specific styles go here. */
 #title {
-    background-size: cover;
-    background-image: url(../images/background.jpg);
+  background-size: cover;
+    background-image: url(../images/background_bubbles.png);
+    height: 100%;
+    width: 100%;
   }
   
   .container-fluid {
-    padding: 3% 15%;
+    padding: 0% 15%;
   }
   
   .card{
@@ -25,14 +27,14 @@
     font-size: 2.5vw;
     line-height: 1.5;
     text-align: center;
-    color: #fff;
+    color: #2c2c2c;
   }
   
   h2 {
     font-family: 'Merriweather';
     font-size: 1.0vw;
     font-weight: bold;
-    color: #fff;
+    color: #2c2c2c;
   }
   
   h3 {
@@ -95,8 +97,7 @@
   #projects {
     padding: 100px;
     text-align: center;
-    background-image: linear-gradient(#030334, #326bb7);
-  
+    
   }
   
   .projects-header {
