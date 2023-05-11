@@ -1,17 +1,11 @@
-/* enlarge image on click*/
+const imageContainer = document.querySelector('.image-container');
+const image = imageContainer.querySelector('img');
+const closeButton = imageContainer.querySelector('.close-button');
 
-// Get the img object using its Id
-img = document.getElementById("img1");
-// Function to increase image size
-function enlargeImg() {
-    // Set image size to 1.5 times original
-    img.style.transform = "scale(1.5)";
-    // Animation effect
-    img.style.transition = "transform 0.25s ease";
-}
-// Function to reset image size
-function resetImg() {
-    // Set image size to original
-    img.style.transform = "scale(1)";
-    img.style.transition = "transform 0.25s ease";
-}
+image.addEventListener('click', () => {
+  imageContainer.classList.add('enlarged');
+});
+
+closeButton.addEventListener('click', () => {
+  imageContainer.classList.remove('enlarged');
+});
