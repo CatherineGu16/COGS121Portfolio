@@ -1,0 +1,159 @@
+/* --------------------------------case study landing page---------------------------- */
+#casestudy-landing {
+    color: #fff;
+    padding: 120px 25vh 20px;
+    text-align: left;
+    min-height: 100vh;
+  }
+  
+  .casestudy-header {
+    margin-top: 4%;
+    font-size: 3rem;
+    color: #3B5998;
+    text-align: left;
+  }
+  
+  .casestudy-summary {
+    margin-top: 2%;
+    font-size: 1rem;
+    color: #2c2c2c;
+    text-align: left;
+  }
+  
+  .landing-background {
+    padding: 20px;
+    height: 300px;
+    background: #3B5998;
+    text-align: center;
+  }
+  
+  .landing-image {
+    max-width: 100%;
+    max-height: 100%;
+    vertical-align: middle;
+    text-align: center;
+  }
+  
+  .landing-text {
+    padding: 10px 15px 10px;
+    text-align: left;
+  }
+  
+  .landing-description {
+    margin-top: 5%;
+    font-size: 1rem;
+    color: #2c2c2c;
+    text-align: left;
+  }
+  
+  .casestudy-img {
+    max-width: 100%;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  
+  .casestudy-img:hover {
+    box-shadow: 0 10px 20px rgba(21, 21, 21, 0.2);
+    transform: scale(1.05);
+  }
+
+
+
+/* --------------------------------Kinoyume.html---------------------------- */
+
+
+/* Kinoyume.html */
+#kinoyume {
+    color: #fff;
+    padding: 10px 25vh 10px;
+    text-align: left;
+    min-height: 100vh;
+    text-align: left;
+  }
+  
+  .kinoyume-landing-background {
+    padding: 20px;
+    height: 300px;
+    background: #F7ACA8;
+    text-align: center;
+  }
+  .kinoyume-casestudy-header {
+    margin-top: 4%;
+    font-size: 3rem;
+    color: #B3160C;
+    text-align: left;
+  }
+  
+  .kinoyume-header {
+    margin-top: 2%;
+    font-size: 3.5rem;
+    color: #ffff;
+    text-align: center;
+  }
+  
+  .kinoyume-headings {
+    margin-top: 2%;
+    font-size: 2rem;
+    color: #B3160C;
+    text-align: left;
+  }
+  
+  .kinoyume-subheadings {
+    margin-top: 3%;
+    font-size: 1.5rem;
+    color: #9b9b9b;
+    text-align: left;
+  }
+  .kinoyume-section {
+    margin-bottom: 6%;
+  }
+  
+  .kinoyume-body {
+    margin-top: 2.5%;
+    font-size: 1.2rem;
+    color: #323232;
+    text-align: left;
+  }
+  
+  .kinoyume-column {
+    padding: 3% 2%;
+  }
+
+  .flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .flex div:first-child {
+    padding-right: 5%;
+  }
+
+  .kinoyume-body.flex {
+    justify-content: space-around;
+  }
+
+  /* Styles for large screens */
+@media (min-width: 1200px) {
+    /* Add styles for large screens here */
+    #kinoyume{
+        padding: 10px 25vh 10px
+    }
+  }
+  
+  /* Styles for medium screens */
+  @media (max-width: 1199px) and (min-width: 768px) {
+    /* Add styles for medium screens here */
+    #kinoyume{
+        padding: 10px 10vh 10px
+    }
+  }
+  
+  
+  /* Styles for small screens */
+  @media (max-width: 767px) {
+    /* Add styles for small screens here */
+    #kinoyume{
+        padding: 10px 5vh 10px
+    }
+  }

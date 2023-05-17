@@ -1,0 +1,49 @@
+/* --------------------------------veil.html---------------------------- */
+
+
+/* veil.html */
+#veil {
+    color: #fff;
+    padding: 10px 25vh 10px;
+    text-align: left;
+    min-height: 100vh;
+    text-align: left;
+  }
+  
+  .veil-landing-background {
+    padding: 20px;
+    height: 300px;
+    background: #A8A2F2;
+    text-align: center;
+  }
+  .veil-casestudy-header {
+    margin-top: 4%;
+    font-size: 3rem;
+    color: #6D64F1;
+    text-align: left;
+  }
+  .veil-heading {
+    margin-top: 2%;
+    font-size: 2vw;
+    color: #6D64F1;
+    text-align: left;
+  }
+  
+  .veil-subheadings {
+    margin-top: 3%;
+    font-size: 1.5vw;
+    color: #9b9b9b;
+    text-align: left;
+  }
+  
+  .veil-body {
+    margin-top: 2.5%;
+    font-size: 1.2vw;
+    color: #323232;
+    text-align: left;
+  }
+  
+  .veil-column {
+    padding: 3% 2%;
+  }
+  
