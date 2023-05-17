@@ -1,0 +1,40 @@
+#aboutme {
+    color: #fff;
+    padding: 70px;
+    text-align: center;
+    min-height: 100vh;
+}
+
+.aboutme-header {
+    margin-top: 5%;
+    font-family: 'Merriweather';
+    font-size: 3rem;
+    color: #023e8a;
+    text-align: center;
+  }
+
+  .aboutme-intro {
+    font-family: 'Roboto';
+    margin-top: 2.5%;
+    font-size: 2.5rem;
+    color: #323232;
+    text-align: left;
+  }
+
+.about-body {
+    font-family: 'Roboto';
+    margin-top: 2.5%;
+    font-size: 2rem;
+    color: #323232;
+    text-align: left;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .flex div:first-child {
+    padding-right: 5%;
+  }
