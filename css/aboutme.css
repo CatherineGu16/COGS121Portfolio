@@ -24,8 +24,24 @@
 .about-body {
     font-family: 'Roboto';
     margin-top: 2.5%;
+    font-size: 1.2rem;
+    color: #323232;
+    text-align: left;
+}
+
+.about-greeting {
+  font-family: 'Roboto';
+    margin-top: 2.5%;
     font-size: 2rem;
     color: #323232;
+    text-align: left;
+}
+
+.about-fun {
+  font-family: 'Roboto';
+    margin-top: 2.5%;
+    font-size: 1.2rem;
+    color: #585858;
     text-align: left;
 }
 
