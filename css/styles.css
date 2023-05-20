@@ -53,6 +53,10 @@ p {
   color: #01004d;
 }
 
+.unbold {
+  font-weight: normal
+}
+
 .top-padding {
   margin-top: 150px;
 }
