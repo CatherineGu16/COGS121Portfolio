@@ -55,6 +55,7 @@
 .casestudy-img:hover {
   box-shadow: 0 10px 20px rgba(21, 21, 21, 0.2);
   transform: scale(1.05);
+  cursor: pointer;
 }
 
 .flex {
