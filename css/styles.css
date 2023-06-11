@@ -57,6 +57,10 @@ p {
   font-weight: normal
 }
 
+.bold {
+  font-weight: bold
+}
+
 .top-padding {
   margin-top: 150px;
 }
@@ -73,7 +77,7 @@ p {
 }
 
 .navbar-brand {
-  font-family: 'Quattrocento';
+  font-family: 'Merriweather', sans-serif;
   font-size: 3rem;
   font-weight: bold;
   padding: 0 10px;
